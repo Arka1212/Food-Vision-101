@@ -19,3 +19,5 @@ The original data came from the TensorFlow Datasets (TFDS), read the guide: http
 * Setting up mixed precision training
 * Building a feature extraction model
 * Fine-tuning the feature extraction mode
+
+Knowing this, in order to use 'mixed precision training' we need access to a Tesla T4 (from within Google Colab) or if we're using our own hardware, our GPU needs a score of 7.0+ (see here: https://developer.nvidia.com/cuda-gpus).
