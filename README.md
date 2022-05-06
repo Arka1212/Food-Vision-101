@@ -10,3 +10,12 @@ I am going to build Food Vision Big™, using all of the data from the Food101 d
 
 ## Data
 The original data came from the TensorFlow Datasets (TFDS), read the guide: https://www.tensorflow.org/datasets/overview.
+
+## Steps
+* Using TensorFlow Datasets to download and explore data
+* Creating preprocessing function for our data
+* Batching & preparing datasets for modelling (making our datasets run fast)
+* Creating modelling callbacks
+* Setting up mixed precision training
+* Building a feature extraction model
+* Fine-tuning the feature extraction mode
